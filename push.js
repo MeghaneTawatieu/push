@@ -5,7 +5,7 @@ let vapidKeys ={
   privateKey: 'qowycvSWAdZRB5cw9W3Mv_8awDm4a1IqUGIcLuvlWzU'
 };
 
-push.setVapidDetails('mailto:test@code.co.uk',
+push.setVapidDetails('mailto:meghanekasseh@gmail.com',
 vapidKeys.publicKey,
 vapidKeys.privateKey
 );
