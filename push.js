@@ -16,7 +16,7 @@ let sub ={
   keys:{
     p256dh:"BOdnM2zeih8N4wi-wACMo-QW3T_1NumfCa8msfmJy4ZFlbyg-MbwbrE5wT6U1YSt_V32Ygu-90Oc4bNE_3RgmnA",
     auth:"AkeuIouhrU4kpaIx5qV3cw"
-  }
+}
 };
 
 push.sendNotification(sub, 'test message')
