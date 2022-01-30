@@ -1,5 +1,5 @@
-self.addEventListener('push', () => {
-    self.registration.showNotification('Hello world!', options);
+// self.addEventListener('push', () => {
+//     self.registration.showNotification('Hello world!', options);
 
     self.addEventListener('push', function(e) {
       var options = {
@@ -22,7 +22,7 @@ self.addEventListener('push', () => {
         ]
       };
       e.waitUntil(
-        self.registration.showNotification('Hello world!', options)
-      );
+        self.registration.showNotification('Hello world!', options
+        ));
     });
-  });
+ 
